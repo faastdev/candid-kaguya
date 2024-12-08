@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Ralway", sans-serif;
-  background-color: black;
+  background-color: #2e004f; /* Violet foncé pour le fond */
   overflow-x: hidden;
 }
 
@@ -25,6 +25,8 @@ body {
 }
 .centerez video {
   width: 100%;
+  border: 2px solid #8a2be2; /* Ajout d'une bordure violette */
+  border-radius: 10px; /* Coins arrondis */
 }
 
 #playButton {
